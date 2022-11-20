@@ -4,7 +4,7 @@ fp16 = dict(loss_scale='dynamic')
 # model settings
 model = dict(neck=dict(use_evcblock=True))
 
-max_epochs = 300
+max_epochs = 150
 num_last_epochs = 15
 
 train_cfg = dict(
